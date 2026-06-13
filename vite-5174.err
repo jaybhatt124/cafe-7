@@ -1,0 +1,24 @@
+Error: [31m  Failed to scan for dependencies from entries:
+  D:/PROJECTS/CAFE7/index.html
+
+  [39mspawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:441:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (D:\PROJECTS\CAFE7\node_modules\esbuild\lib\main.js:1978:29)
+    at Object.context (D:\PROJECTS\CAFE7\node_modules\esbuild\lib\main.js:1877:33)
+    at prepareEsbuildScanner (file:///D:/PROJECTS/CAFE7/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:14266:24)
+    at async file:///D:/PROJECTS/CAFE7/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:47144:28
+[2m10:41:09 am[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'D:\PROJECTS\CAFE7\node_modules\.vite\deps_temp_cae61a59' -> 'D:\PROJECTS\CAFE7\node_modules\.vite\deps'[39m
+Error: [31m  Failed to scan for dependencies from entries:
+  D:/PROJECTS/CAFE7/index.html
+
+  [39mspawn EPERM
+    at ChildProcess.spawn (node:internal/child_process:441:11)
+    at Object.spawn (node:child_process:796:9)
+    at ensureServiceIsRunning (D:\PROJECTS\CAFE7\node_modules\esbuild\lib\main.js:1978:29)
+    at Object.context (D:\PROJECTS\CAFE7\node_modules\esbuild\lib\main.js:1877:33)
+    at prepareEsbuildScanner (file:///D:/PROJECTS/CAFE7/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:14266:24)
+    at async file:///D:/PROJECTS/CAFE7/node_modules/vite/dist/node/chunks/dep-Dm0c1Wj2.js:47144:28
+[2m3:20:57 pm[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m [31merror while updating dependencies:
+Error: EPERM: operation not permitted, rename 'D:\PROJECTS\CAFE7\node_modules\.vite\deps_temp_3d21e050' -> 'D:\PROJECTS\CAFE7\node_modules\.vite\deps'[39m
